@@ -1,0 +1,7 @@
+<?php foreach ($access as $item) :?>
+        <?php if ($item->lesson_id !== $lesson->id) { ?>
+            <p><a class="<?php echo 'no-link'?>" href="<?= Url::toRoute(['/program/lessons', 'id'=> $lesson->id]);?>"><?= $lesson->title?></a></p>
+        <?php }else{?>
+            <p><a class="<?php echo 'link'?>" href="<?= Url::toRoute(['/program/lessons', 'id'=> $lesson->id]);?>"><?= $lesson->title?></a></p>
+        <?php } ?>
+    <?php endforeach;?>

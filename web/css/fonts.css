@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "EurofurenceLight";
+    src: url("font/EurofurenceLight.eot");
+    src: url("font/EurofurenceLight.eot?#iefix")format("embedded-opentype"),
+    url("font/EurofurenceLight.woff") format("woff"),
+    url("font/EurofurenceLight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
